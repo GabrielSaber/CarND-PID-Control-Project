@@ -36,7 +36,7 @@ int main()
   PID pid_speed;
 
   // TODO: Initialize the pid variable.
-  pid.Init(0.1, 0.0, 0.5);
+  pid.Init(0.04, 0.004, 0.5);
   pid_speed.Init(0.1, 0.0, 2.0);
 
 
